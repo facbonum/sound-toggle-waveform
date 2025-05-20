@@ -50,18 +50,24 @@ Make sure the following are installed:
 
 ### Linux
 
+Ensure your environment is set up to use `g++` and SDL2 libraries, to compile.
 ```bash
 g++ sound_toggle_waveform.cpp -o sound_toggle_waveform -lSDL2 -lSDL2_ttf
+```
+Then run:
+```bash
 ./sound_toggle_waveform
 ```
 
 ### Windows (MinGW)
 
-Ensure your environment is set up to use `g++` and SDL2 libraries. Then run:
-
+Likewise, in Windows, make sure that your environment variables are properly declared in `Advanced System Settings` /   `System Properties` under `Path` within the `Environment Variables...` window.
 ```bash
 g++ sound_toggle_waveform.cpp -o sound_toggle_waveform.exe -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf
-sound_toggle_waveform.exe
+```
+Then run:
+```bash
+.\sound_toggle_waveform.exe
 ```
 
 If you're using MSYS2 or similar, ensure SDL2 and SDL2\_ttf packages are installed via `pacman`.
