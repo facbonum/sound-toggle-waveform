@@ -1,7 +1,20 @@
-# `sound_toggle_waveform`
+# Waveform Soundboard
 
----
 A minimal SDL2-based sound demo that plays a continuous tone when you click the **Play** button. It toggles between a **sine wave** and a **square wave** clicking the **Square (SQ)**, **Triangle (TR)**, and **Noise (NS)** buttons. Useful as a base for building 80s game sound effects, audio experiments, or learning how real-time audio generation works in SDL2.
+
+This project demonstrates:
+
+* Using `SDL_OpenAudioDevice` with a custom callback
+* Writing raw audio samples to an output stream
+* Generating periodic waveforms mathematically
+* Handling input and text rendering in SDL2
+
+It’s a solid base to expand into:
+
+* A full retro game soundboard
+* Synthesizer-style audio playback
+* MIDI-style waveform instruments
+
 ---
 
 ## ✨ Features
@@ -70,23 +83,6 @@ If you're using MSYS2 or similar, ensure SDL2 and SDL2\_ttf packages are install
 * No volume control or envelope shaping.
 * Only two waveform types (sine and square).
 * No visualizer or waveform preview.
-
----
-
-## 📚 Learn More
-
-This project demonstrates:
-
-* Using `SDL_OpenAudioDevice` with a custom callback
-* Writing raw audio samples to an output stream
-* Generating periodic waveforms mathematically
-* Handling input and text rendering in SDL2
-
-It’s a solid base to expand into:
-
-* A full retro game soundboard
-* Synthesizer-style audio playback
-* MIDI-style waveform instruments
 
 ---
 
