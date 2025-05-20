@@ -1,5 +1,6 @@
 # `sound_toggle_waveform`
 
+---
 A minimal SDL2-based sound demo that plays a continuous tone when you click the **Play** button. It toggles between a **sine wave** and a **square wave** clicking the **Square (SQ)**, **Triangle (TR)**, and **Noise (NS)** buttons. Useful as a base for building 80s game sound effects, audio experiments, or learning how real-time audio generation works in SDL2.
 ---
 
